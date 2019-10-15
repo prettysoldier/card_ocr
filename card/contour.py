@@ -150,6 +150,8 @@ def detect(img):
     cv2.imwrite("debug/poly.jpg", poly_img)
     logger.info("已生成轮廓多边形图【%s】", "debug/poly.jpg")
 
+
+
     # paper = four_point_transform(image, docCnt.reshape(4, 2))
     # 5.根据4个角的坐标值裁剪图片
     # warped = four_point_transform(gray, docCnt.reshape(4, 2))
